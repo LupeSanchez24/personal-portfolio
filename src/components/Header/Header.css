@@ -1,0 +1,10 @@
+.nav__links {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.nav__links a {
+  color: #000;
+  text-decoration: none;
+}
