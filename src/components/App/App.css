@@ -1,6 +1,8 @@
-/*@import url(../../vendor/fonts.css);*/
+@import url(../../vendor/fonts.css);
 
 .page {
+  font-family: inter, Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 .page__content {

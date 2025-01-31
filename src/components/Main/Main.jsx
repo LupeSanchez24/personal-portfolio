@@ -1,8 +1,12 @@
+import "./Main.css";
 function Main() {
   return (
-    <div className="main">
-      <div className="main__title"> Personal Portfolio</div>
-    </div>
+    <main className="main">
+      <div className="main__title">
+        {" "}
+        Hi, I am Guadalupe Sanchez a Frontend Developer from Washington
+      </div>
+    </main>
   );
 }
 
