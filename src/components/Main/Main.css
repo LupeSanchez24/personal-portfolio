@@ -1,6 +1,38 @@
 .main__title {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+
+  margin-top: 200px;
+}
+.main__title-name {
+  margin-right: 5px;
+  margin-left: 5px;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+.main__description {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 340px;
+}
+
+.main__description-position {
+  color: darkmagenta;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px rgba(243, 212, 239, 0.846),
+      0 0 10px rgba(243, 212, 239, 0.846), 0 0 15px rgba(243, 212, 239, 0.846);
+  }
+  50% {
+    text-shadow: 0 0 10px rgb(255, 179, 245, 0.846),
+      0 0 20px rgb(255, 179, 245, 0.846), 0 0 30px rgb(255, 179, 245, 0.846);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(255, 179, 245, 0.846),
+      0 0 10px rgba(255, 179, 245, 0.846), 0 0 15px rgba(255, 179, 245, 0.846);
+  }
 }

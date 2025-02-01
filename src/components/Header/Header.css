@@ -1,7 +1,16 @@
+.header {
+  font-family: roboto, Arial, Helvetica, sans-serif;
+}
 .nav__links {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
+}
+
+.nav__link:hover {
+  background-color: rgb(255, 179, 245, 0.846);
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .nav__links a {
