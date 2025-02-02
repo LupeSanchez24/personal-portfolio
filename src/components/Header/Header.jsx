@@ -3,15 +3,11 @@ import "./Header.css";
 function Header() {
   return (
     <header className="header">
+      <p className="header__title">
+        <Link to="/">Portfolio</Link>
+      </p>
       <div className="nav">
         <ul className="nav__links">
-          <li className="nav__link">
-            {" "}
-            <Link to="/">Portfolio</Link>
-          </li>
-          <li className="nav__link">
-            <Link to="/about">About</Link>
-          </li>
           <li className="nav__link">
             <Link to="/projects">Projects</Link>
           </li>

@@ -1,4 +1,5 @@
 import "./Main.css";
+import About from "../About/About";
 function Main() {
   return (
     <main className="main">
@@ -9,6 +10,7 @@ function Main() {
         a <span className="main__description-position">Frontend Developer</span>{" "}
         from Washington
       </p>
+      <About />
     </main>
   );
 }
