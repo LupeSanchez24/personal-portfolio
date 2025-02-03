@@ -1,21 +1,13 @@
-.header {
+.nav {
   font-family: roboto, Arial, Helvetica, sans-serif;
-}
-
-.header__title {
   font-size: 20px;
   margin-left: 20px;
   border-bottom: 1px solid;
-  padding-bottom: 20px;
 }
 
-.header__title a {
-  color: #000;
-  text-decoration: none;
-}
 .nav__links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   list-style-type: none;
 }
 

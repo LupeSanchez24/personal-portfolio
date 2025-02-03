@@ -1,0 +1,37 @@
+.contact__title {
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-top: 30px;
+  padding-left: 20px;
+  background-color: rgb(255, 179, 245, 0.846);
+  border-radius: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact__list {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact__list-email {
+  margin-bottom: 10px;
+}
+
+.contact__list-linkedin {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.contact__list-linkedin a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact__list-github a {
+  text-decoration: none;
+  color: #000;
+}
